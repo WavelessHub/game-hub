@@ -4,6 +4,7 @@ import { StrictMode } from "react";
 import { theme } from "./theme";
 
 import App from "./App";
+import "./index.css";
 
 createRoot(document.getElementById("root") as HTMLElement).render(
   <StrictMode>
