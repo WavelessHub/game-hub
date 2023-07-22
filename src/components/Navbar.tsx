@@ -10,6 +10,7 @@ const Navbar = () => {
       padding="4px"
       paddingX="10px"
       paddingRight="30px"
+      marginBottom={2}
     >
       <Image src={logo} boxSize="70px" />
       <ColorModeSwitch />
