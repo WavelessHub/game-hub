@@ -5,7 +5,12 @@ import logo from "../assets/logo.webp";
 
 const Navbar = () => {
   return (
-    <HStack justifyContent="space-between" padding="4px" paddingRight="20px">
+    <HStack
+      justifyContent="space-between"
+      padding="4px"
+      paddingX="10px"
+      paddingRight="30px"
+    >
       <Image src={logo} boxSize="70px" />
       <ColorModeSwitch />
     </HStack>
